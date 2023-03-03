@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+.banner {
+    background-image: url("../images/background/agency-slider-04.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.backgroundimg {
+    background-image: url("../images/background/restaurant-menu-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.bg3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../images/background/hero-bg9.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.bg4 {
+    background-image: url("../images/background/fitness-about-bg.jpg");
+    min-height: 60vh;
+    background-size: cover;
+}
+.bg5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../images/background/hero-bg3.jpg");
+    min-height: 100vh;
+    background-size: cover;
+}
+.bgcolor {
+    background-color: #f1eccf;
+}
+.icon {
+    width: 40px;
+    color: rgb(247, 193, 128);
+}
+.iconsfooter {
+    color: black;
+}
+.cook {
+    background-color: #f1eccf;
+}
+.content {
+    height: 20vh;
+}
+.roundicon {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 576px) {
+    .img1 {
+        width: 100%;
+    }
+
+    .align {
+        justify-content: center;
+    }
+    .backgroundimg {
+        background-image: none;
+    }
+}
